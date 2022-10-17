@@ -13,7 +13,7 @@
     float: left;
     
     margin-top: 15px;
-    margin-left: 5px;
+    
     position: sticky;
     top: 50px;
    
@@ -62,6 +62,7 @@
 .navleft{
     display: block;
     
+    
 }
 .diva {
    width: 200px;
@@ -72,9 +73,19 @@
    
     text-decoration: none;
     color: rgb(90, 46, 192);
-   
-    
-    
+    overflow:hidden ;
+}
+.sumanchor{
+    text-decoration: none;
+    color: darkgreen;
+}
+.sumanchor:hover{
+    background-color: yellow;
+    color: black;
+    text-decoration: underline;
+}
+.diva, .tag{
+    font-size: 1.1rem;
 }
 .divadetail {
     width: 200px;
@@ -104,7 +115,7 @@
    background-color: #fafff7;
     width: 60%;
    letter-spacing: 1px;
-   padding: 20px;
+   
     float: left;
     margin: auto;
     margin-top: 15px;
